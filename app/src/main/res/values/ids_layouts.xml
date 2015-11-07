@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="animation_layout_sidebar" type="id"/>
+    <item name="animation_layout_content" type="id"/>
+    <item name="menu_item_caption" type="id"/>
+    <item name="menu_item_icon" type="id"/>
+    <item name="fragment_container" type="id"/>
+    <item name="custom_message_dialog_title" type="id"/>
+    <item name="custom_message_dialog_message" type="id"/>
+    <item name="custom_message_dialog_button" type="id"/>
+    
+</resources>
