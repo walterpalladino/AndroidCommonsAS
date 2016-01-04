@@ -2,266 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dec6815-4172-4d63-9644-418e0cfca905" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/commons/BuildConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/res/merged/androidTest/debug/anim/enter.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/res/anim/exit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/res/merged/androidTest/debug/anim/left_to_right_in.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/res/anim/left_to_right_in.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/res/merged/androidTest/debug/anim/left_to_right_out.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/res/anim/left_to_right_out.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/res/merged/androidTest/debug/anim/pop_enter.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/res/anim/pop_exit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/res/merged/androidTest/debug/anim/right_to_left_in.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/res/anim/right_to_left_in.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/res/merged/androidTest/debug/anim/right_to_left_out.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/res/anim/right_to_left_out.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/assets/androidTest/debug/fonts/Roboto_Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/assets/androidTest/debug/fonts/adore64.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/assets/androidTest/debug/fonts/sourcesanspro_light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/assets/androidTest/debug/fonts/timeburner_regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/R.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/aapt/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/assets/fonts/Roboto_Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/assets/fonts/adore64.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/assets/fonts/sourcesanspro_light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/assets/fonts/timeburner_regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/res/anim/left_to_right_in.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/res/anim/left_to_right_out.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/res/anim/right_to_left_in.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/res/anim/right_to_left_out.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/com/whp/android/commons/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/com/whp/android/commons/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/com/whp/android/commons/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/com/whp/android/commons/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/com/whp/android/commons/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/com/whp/android/commons/test/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/com/whp/android/commons/test/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/com/whp/android/commons/test/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/com/whp/android/commons/test/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/com/whp/android/commons/test/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/com/whp/android/commons/test/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/com/whp/android/commons/test/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/BasicActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/BasicApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/BasicFragmentActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/ImageManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/Log.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/SharedPreferencesDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/bitmap/BitmapLazyLoader$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/bitmap/BitmapLazyLoader$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/bitmap/BitmapLazyLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/bitmap/BitmapLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/bitmap/BitmapManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/bitmap/BitmapUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/bitmap/ConvolutionMatrix.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/bitmap/CustomImageView$OnImageChangeListiner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/bitmap/CustomImageView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/bitmap/FlushedInputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/bitmap/cache/BitmapFileCache.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/bitmap/cache/BitmapMemoryPersistentCache.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/commons/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/commons/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/commons/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/commons/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/commons/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/commons/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/commons/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/conversions/MetricConversions.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/device/DeviceUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/dialog/CommonDialogs$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/dialog/CommonDialogs$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/dialog/CommonDialogs$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/dialog/CommonDialogs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/fonts/FontUtils$FontType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/fonts/FontUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/fragment/FragmentUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/fx/fireworks/model/Explosion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/fx/fireworks/model/Particle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/fx/fireworks/view/FireworksSurfaceView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/fx/fireworks/view/MainThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/gallery/ExternalImage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/gallery/ExternalImageListHelper$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/gallery/ExternalImageListHelper$ExternalImageListContentHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/gallery/ExternalImageListHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/graphic/Pixel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/http/RequestTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/keyboard/KeyboardUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/location/CustomLocationListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/location/LocationData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/location/LocationUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/location/OnLocationChangeListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/location/geocode/GeocodeAddress.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/location/geocode/GeocodeHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/location/geocode/GeocodeJsonParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/location/geocode/GeocodeResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/maps/GoogleMapsAPIProjection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/maps/MapUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/maps/Marker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/menu/CustomMenuHelper$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/menu/CustomMenuHelper$CustomMenuSelectListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/menu/CustomMenuHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/menu/CustomMenuItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/menu/CustomMenuItemAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/menu/CustomMenuParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/network/CheckServices.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/phone/PhoneUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/rest/RestClient$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/rest/RestClient$RequestMethod.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/rest/RestClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/rss/RSSHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/rss/RssFeed.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/rss/RssPost.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/rss/RssReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/security/CustomCrypt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/security/SecurityUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/serialization/SerializationUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/splashscreen/SplashScreenActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/splashscreen/SplashScreenActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/string/StringUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/time/DateUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/ui/event/swipe/ListSwipeGestureListener$ListSwipeGestureListenerCallback.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/ui/event/swipe/ListSwipeGestureListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/ui/slidingmenu/SlidingMenuLayout$CloseListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/ui/slidingmenu/SlidingMenuLayout$OpenListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/ui/slidingmenu/SlidingMenuLayout$SlidingMenuLayoutListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/ui/slidingmenu/SlidingMenuLayout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/validator/EmailValidator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/validator/IpValidator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/widget/AnimatedButton$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/widget/AnimatedButton$AnimatedButtonListenerCallback.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/widget/AnimatedButton.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/widget/BottomSheetLayout$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/widget/BottomSheetLayout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/widget/LetterImageView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/widget/OdometerTextView$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/widget/OdometerTextView$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/widget/OdometerTextView$OdometerTextViewCallback.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/whp/android/widget/OdometerTextView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/aidl/androidTest/debug/dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/aidl/debug/dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResourcesandroidTest/debug/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageResourcesdebug/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/manifest/tmp/manifestMerger5638149622862596120.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/androidTest/debug/anim/enter.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/androidTest/debug/anim/exit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/androidTest/debug/anim/left_to_right_in.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/androidTest/debug/anim/left_to_right_out.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/androidTest/debug/anim/pop_enter.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/androidTest/debug/anim/pop_exit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/androidTest/debug/anim/right_to_left_in.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/androidTest/debug/anim/right_to_left_out.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/androidTest/debug/R.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/outputs/aar/app-debug.aar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/packageDebugJar/MANIFEST.MF" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/AndroidCommons/build.gradle" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/com/whp/android/commons/test/BuildConfig.java" afterPath="$PROJECT_DIR$/AndroidCommons/build/generated/source/buildConfig/androidTest/debug/com/whp/android/commons/test/BuildConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/whp/android/commons/BuildConfig.java" afterPath="$PROJECT_DIR$/AndroidCommons/build/generated/source/buildConfig/debug/com/whp/android/commons/BuildConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/generated/source/r/androidTest/debug/com/whp/android/commons/R.java" afterPath="$PROJECT_DIR$/AndroidCommons/build/generated/source/r/androidTest/debug/com/whp/android/commons/R.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/generated/source/r/androidTest/debug/com/whp/android/commons/test/R.java" afterPath="$PROJECT_DIR$/AndroidCommons/build/generated/source/r/androidTest/debug/com/whp/android/commons/test/R.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/whp/android/commons/R.java" afterPath="$PROJECT_DIR$/AndroidCommons/build/generated/source/r/debug/com/whp/android/commons/R.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/bundles/debug/classes.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/res/anim/enter.xml" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/res/anim/enter.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/res/anim/exit.xml" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/res/merged/androidTest/debug/anim/exit.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/res/anim/pop_enter.xml" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/res/anim/pop_enter.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/res/anim/pop_exit.xml" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/res/merged/androidTest/debug/anim/pop_exit.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/res/layout/splash_screen.xml" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/res/merged/androidTest/debug/layout/splash_screen.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/res/values/values.xml" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/res/merged/androidTest/debug/values/values.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/androidTest/debug/layout/splash_screen.xml" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/res/layout/splash_screen.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/androidTest/debug/values/values.xml" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/bundles/debug/res/values/values.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/res/resources-debug-androidTest.ap_" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/AndroidManifest.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/assets/fonts/Roboto_Light.ttf" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/assets/fonts/Roboto_Light.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/assets/fonts/adore64.ttf" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/assets/fonts/adore64.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/assets/fonts/sourcesanspro_light.ttf" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/assets/fonts/sourcesanspro_light.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/assets/fonts/timeburner_regular.ttf" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/assets/fonts/timeburner_regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/BasicActivity.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/BasicActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/BasicApplication.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/BasicApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/BasicFragmentActivity.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/BasicFragmentActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/ImageManager.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/ImageManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/Log.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/Log.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/SharedPreferencesDao.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/SharedPreferencesDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/bitmap/BitmapLazyLoader.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapLazyLoader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/bitmap/BitmapLoader.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapLoader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/bitmap/BitmapManager.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/bitmap/BitmapUtils.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/bitmap/ConvolutionMatrix.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/ConvolutionMatrix.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/bitmap/CustomImageView.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/CustomImageView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/bitmap/FlushedInputStream.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/FlushedInputStream.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/bitmap/cache/BitmapFileCache.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/cache/BitmapFileCache.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/bitmap/cache/BitmapMemoryPersistentCache.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/cache/BitmapMemoryPersistentCache.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/conversions/MetricConversions.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/conversions/MetricConversions.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/device/DeviceUtils.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/device/DeviceUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/dialog/CommonDialogs.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/dialog/CommonDialogs.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/fonts/FontUtils.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/fonts/FontUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/fragment/FragmentUtils.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/fragment/FragmentUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/fx/fireworks/model/Explosion.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/fx/fireworks/model/Explosion.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/fx/fireworks/model/Particle.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/fx/fireworks/model/Particle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/fx/fireworks/view/FireworksSurfaceView.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/fx/fireworks/view/FireworksSurfaceView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/fx/fireworks/view/MainThread.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/fx/fireworks/view/MainThread.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/gallery/ExternalImage.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/gallery/ExternalImage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/gallery/ExternalImageListHelper.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/gallery/ExternalImageListHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/graphic/Pixel.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/graphic/Pixel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/http/RequestTask.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/http/RequestTask.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/keyboard/KeyboardUtils.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/keyboard/KeyboardUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/location/CustomLocationListener.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/location/CustomLocationListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/location/LocationData.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/location/LocationData.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/location/LocationUtils.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/location/LocationUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/location/OnLocationChangeListener.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/location/OnLocationChangeListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/location/geocode/GeocodeAddress.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/location/geocode/GeocodeAddress.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/location/geocode/GeocodeHelper.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/location/geocode/GeocodeHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/location/geocode/GeocodeJsonParser.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/location/geocode/GeocodeJsonParser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/location/geocode/GeocodeResult.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/location/geocode/GeocodeResult.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/maps/GoogleMapsAPIProjection.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/maps/GoogleMapsAPIProjection.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/maps/MapUtils.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/maps/MapUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/maps/Marker.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/maps/Marker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/menu/CustomMenuHelper.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/menu/CustomMenuHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/menu/CustomMenuItem.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/menu/CustomMenuItem.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/menu/CustomMenuItemAdapter.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/menu/CustomMenuItemAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/menu/CustomMenuParser.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/menu/CustomMenuParser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/network/CheckServices.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/network/CheckServices.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/phone/PhoneUtils.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/phone/PhoneUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/rest/RestClient.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/rest/RestClient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/rss/RssFeed.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/rss/RssFeed.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/rss/RssPost.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/rss/RssPost.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/rss/RssReader.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/rss/RssReader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/security/CustomCrypt.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/security/CustomCrypt.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/security/SecurityUtils.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/security/SecurityUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/serialization/SerializationUtils.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/serialization/SerializationUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/splashscreen/SplashScreenActivity.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/splashscreen/SplashScreenActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/string/StringUtils.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/string/StringUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/time/DateUtils.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/time/DateUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/ui/event/swipe/ListSwipeGestureListener.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/ui/event/swipe/ListSwipeGestureListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/ui/slidingmenu/SlidingMenuLayout.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/ui/slidingmenu/SlidingMenuLayout.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/validator/EmailValidator.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/validator/EmailValidator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/validator/IpValidator.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/validator/IpValidator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/widget/AnimatedButton.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/widget/AnimatedButton.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/widget/BottomSheetLayout.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/widget/BottomSheetLayout.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/widget/LetterImageView.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/widget/LetterImageView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/whp/android/widget/OdometerTextView.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/widget/OdometerTextView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/anim/enter.xml" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/bundles/debug/res/anim/enter.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/anim/exit.xml" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/bundles/debug/res/anim/exit.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/anim/left_to_right_in.xml" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/bundles/debug/res/anim/left_to_right_in.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/anim/left_to_right_out.xml" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/bundles/debug/res/anim/left_to_right_out.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/anim/pop_enter.xml" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/bundles/debug/res/anim/pop_enter.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/anim/pop_exit.xml" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/bundles/debug/res/anim/pop_exit.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/anim/right_to_left_in.xml" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/bundles/debug/res/anim/right_to_left_in.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/anim/right_to_left_out.xml" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/bundles/debug/res/anim/right_to_left_out.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/splash_screen.xml" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/bundles/debug/res/layout/splash_screen.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/values/ids_layouts.xml" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/res/values/ids_layouts.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/outputs/aar/AndroidCommons-debug.aar" afterPath="$PROJECT_DIR$/AndroidCommons/build/outputs/aar/AndroidCommons-debug.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/bundles/debug/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AndroidCommons.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -2107,7 +1856,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4350736301000" />
+        <entry key="$PROJECT_DIR$" value="4355745483000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2766,7 +2515,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="17" y="23" width="1643" height="987" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2781,7 +2530,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295063" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979387" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
