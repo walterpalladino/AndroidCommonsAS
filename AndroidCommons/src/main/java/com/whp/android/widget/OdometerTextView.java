@@ -1,6 +1,21 @@
-package com.whp.android.widget;
+/*
+ * Copyright 2016 Walter Hugo Palladino
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
 
-import java.util.Locale;
+package com.whp.android.widget;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -13,6 +28,8 @@ import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.view.animation.LinearInterpolator;
 import android.widget.TextView;
+
+import java.util.Locale;
 
 /**
  * 
@@ -51,6 +68,8 @@ public class OdometerTextView extends TextView {
 	private String digitBelowString;
 
 	private Rect textBounds = new Rect();
+
+	private boolean cancelled;
 
 	public OdometerTextView (Context context) {
 		super(context);
@@ -95,6 +114,7 @@ public class OdometerTextView extends TextView {
 		} else {
 
 			textPaint.setTextSize(textSize);
+			textPaint.setTypeface(getTypeface());
 
 			// Above
 			valueAbove = (int) currentValue;
@@ -137,6 +157,7 @@ public class OdometerTextView extends TextView {
 	private void drawString (Canvas canvas, Paint textPaint, float textSize, String string) {
 
 		textPaint.setTextSize(textSize);
+		textPaint.setTypeface(getTypeface());
 
 		textPaint.getTextBounds("0", 0, 1, textBounds);
 
@@ -199,6 +220,8 @@ public class OdometerTextView extends TextView {
 
 		this.value = newValue;
 
+		cancelled = false;
+		
 		if (doAnimation) {
 			startAnimation();
 		} else {
@@ -228,36 +251,50 @@ public class OdometerTextView extends TextView {
 			@Override
 			public void onAnimationRepeat (Animator animation) {
 
-				/*
-				 * if (actualDigit < (maxDigits - 1)) { if (digitAboveString.equals(digitBelowString)) { actualDigit++; } else {
-				 * currentValue += Math.pow(10, actualDigit); } } else { scrollAnimation.end(); }
-				 */
-				if (actualDigit < (maxDigits - 1)) {
+				if (cancelled) {
+					scrollAnimation.end();
+				} else {
 
-					digitAboveString = Character.toString(valueAboveString.charAt(maxDigits - actualDigit - 1));
-					digitBelowString = Character.toString(valueBelowString.charAt(maxDigits - actualDigit - 1));
+					if (actualDigit < (maxDigits - 1)) {
 
-					if (digitAboveString.equals(digitBelowString)) {
-						actualDigit++;
-					} else {
-						if (valueAbove < valueBelow) {
-							currentValue += Math.pow(10, actualDigit);
+						digitAboveString = Character.toString(valueAboveString.charAt(maxDigits - actualDigit - 1));
+						digitBelowString = Character.toString(valueBelowString.charAt(maxDigits - actualDigit - 1));
+
+						if (digitAboveString.equals(digitBelowString)) {
+							actualDigit++;
 						} else {
-							currentValue -= Math.pow(10, actualDigit);
+							if (valueAbove < valueBelow) {
+								currentValue += Math.pow(10, actualDigit);
+							} else {
+								currentValue -= Math.pow(10, actualDigit);
+							}
+						}
+					} else {
+						scrollAnimation.end();
+						if (mListener != null) {
+							mListener.OnUpdateCompleted();
 						}
 					}
-				} else {
-					scrollAnimation.end();
-					if (mListener != null) {
-						mListener.OnUpdateCompleted();
-					}
 				}
+
 			}
 
 		});
 
 		scrollAnimation.start();
 
+	}
+
+	/**
+	 * 
+	 * stopAllAnimations
+	 *
+	 */
+	public void stopAllAnimations () {
+		cancelled = true;
+		if (scrollAnimation != null) {
+			scrollAnimation.cancel();
+		}
 	}
 
 	/**
