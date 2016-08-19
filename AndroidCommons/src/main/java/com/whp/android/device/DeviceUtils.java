@@ -19,6 +19,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
+import android.os.Build;
 import android.telephony.TelephonyManager;
 import android.util.DisplayMetrics;
 import android.view.Surface;
@@ -97,6 +98,45 @@ public class DeviceUtils {
 		TelephonyManager tManager = (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
 		return tManager.getDeviceId();
 	}
+
+	/**
+	 * getDeviceId
+	 *
+	 * @param context
+	 * @return
+	 */
+	public static String getDeviceId (Context context) {
+		String deviceId = getUUID(context);
+		if (deviceId == null) {
+			deviceId	= getDeviceSerialId (context);
+		}
+		return deviceId;
+	}
+
+	/**
+	 * getAndroidId
+	 *
+	 * @param context
+	 * @return
+	 */
+	public static String getAndroidId (Context context) {
+		String androidId;
+		androidId = "" + android.provider.Settings.Secure.getString(context.getContentResolver(), android.provider.Settings.Secure.ANDROID_ID);
+		return androidId;
+	}
+
+	/**
+	 * getDeviceSerialId
+	 *
+	 * @param context
+	 * @return
+	 */
+	public static String getDeviceSerialId (Context context) {
+		String deviceSerialId;
+		deviceSerialId = "" + Build.SERIAL;
+		return deviceSerialId;
+	}
+
 
 	/**
 	 * 

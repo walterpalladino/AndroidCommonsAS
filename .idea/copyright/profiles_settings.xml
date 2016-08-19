@@ -1,3 +1,7 @@
 <component name="CopyrightManager">
-  <settings default="" />
+  <settings default="Walter Hugo Palladino">
+    <module2copyright>
+      <element module="All" copyright="Walter Hugo Palladino" />
+    </module2copyright>
+  </settings>
 </component>

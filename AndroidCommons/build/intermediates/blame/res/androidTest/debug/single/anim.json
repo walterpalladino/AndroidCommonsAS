@@ -24,11 +24,11 @@
         "source": "/Users/walterpalladino/Documents/prg/as-ws/AndroidCommons/AndroidCommons/build/intermediates/bundles/debug/res/anim/right_to_left_out.xml"
     },
     {
-        "merged": "/Users/walterpalladino/Documents/prg/as-ws/AndroidCommons/AndroidCommons/build/intermediates/res/merged/androidTest/debug/anim/exit.xml",
-        "source": "/Users/walterpalladino/Documents/prg/as-ws/AndroidCommons/AndroidCommons/build/intermediates/bundles/debug/res/anim/exit.xml"
-    },
-    {
         "merged": "/Users/walterpalladino/Documents/prg/as-ws/AndroidCommons/AndroidCommons/build/intermediates/res/merged/androidTest/debug/anim/right_to_left_in.xml",
         "source": "/Users/walterpalladino/Documents/prg/as-ws/AndroidCommons/AndroidCommons/build/intermediates/bundles/debug/res/anim/right_to_left_in.xml"
+    },
+    {
+        "merged": "/Users/walterpalladino/Documents/prg/as-ws/AndroidCommons/AndroidCommons/build/intermediates/res/merged/androidTest/debug/anim/exit.xml",
+        "source": "/Users/walterpalladino/Documents/prg/as-ws/AndroidCommons/AndroidCommons/build/intermediates/bundles/debug/res/anim/exit.xml"
     }
 ]
