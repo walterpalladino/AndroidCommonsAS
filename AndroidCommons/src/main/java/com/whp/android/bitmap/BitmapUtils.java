@@ -15,8 +15,6 @@
  */
 package com.whp.android.bitmap;
 
-import java.io.ByteArrayOutputStream;
-
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.BlurMaskFilter;
@@ -28,6 +26,8 @@ import android.graphics.Path;
 import android.graphics.Rect;
 import android.util.Base64;
 import android.view.View;
+
+import java.io.ByteArrayOutputStream;
 
 /**
  * @author Walter Hugo Palladino
@@ -402,6 +402,38 @@ public class BitmapUtils {
 		Bitmap sourceBitmap = scaleBitmapImage;
 		canvas.drawBitmap(sourceBitmap, new Rect(0, 0, sourceBitmap.getWidth(), sourceBitmap.getHeight()), new Rect(0, 0,
 				targetWidth, targetHeight), null);
+		return targetBitmap;
+	}
+
+	public static Bitmap getRoundedShape (Bitmap scaleBitmapImage,int targetWidth, int targetHeight, int borderWith, int color) {
+
+		//	First we create a rounded bitmap included on the original one
+		Bitmap targetBitmap = Bitmap.createBitmap (targetWidth, targetHeight, Bitmap.Config.ARGB_8888);
+
+		Canvas canvas = new Canvas (targetBitmap);
+		Path path = new Path ();
+		path.addCircle (((float) targetWidth - 1) / 2, ((float) targetHeight - 1) / 2,
+				(Math.min (((float) targetWidth), ((float) targetHeight)) / 2), Path.Direction.CCW);
+
+		canvas.clipPath (path);
+
+
+		Bitmap sourceBitmap = scaleBitmapImage;
+
+		canvas.drawBitmap (sourceBitmap, new Rect (0, 0, sourceBitmap.getWidth (), sourceBitmap.getHeight ()),
+				new Rect (0, 0, targetWidth, targetHeight), null);
+
+		// Initializing a new Paint instance to draw circular border
+		if (borderWith > 0) {
+			Paint borderPaint = new Paint();
+			borderPaint.setStyle(Paint.Style.STROKE);
+			borderPaint.setStrokeWidth(borderWith);
+			borderPaint.setColor(color);
+			borderPaint.setAntiAlias (true);
+
+			canvas.drawCircle(canvas.getWidth()/2, canvas.getWidth()/2, canvas.getWidth() / 2 - borderWith / 2, borderPaint);
+		}
+
 		return targetBitmap;
 	}
 
