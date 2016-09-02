@@ -2,19 +2,138 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa42a09-c282-44d7-bdba-50e1f055f0fa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapLoaderTask.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_18_0_0.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/bundles/debug/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/R$anim.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/R$anim.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/R$id.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/R$layout.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/R$string.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/R.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/test/BuildConfig.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/test/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/test/R$anim.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/test/R$anim.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/test/R$attr.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/test/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/test/R$id.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/test/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/test/R$layout.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/test/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/test/R$string.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/test/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/test/R.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/androidTest/debug/com/whp/android/commons/test/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/BasicActivity.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/BasicActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/BasicApplication.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/BasicApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/BasicFragmentActivity.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/BasicFragmentActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/ImageManager.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/ImageManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/Log.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/Log.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/SharedPreferencesDao.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/SharedPreferencesDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/BitmapLazyLoader$1.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/BitmapLazyLoader$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/BitmapLazyLoader$2.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/BitmapLazyLoader$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/BitmapLazyLoader.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/BitmapLazyLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/BitmapLoader.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/BitmapLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/BitmapManager.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/BitmapManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/BitmapUtils.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/BitmapUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/ConvolutionMatrix.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/ConvolutionMatrix.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/CustomImageView$OnImageChangeListiner.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/CustomImageView$OnImageChangeListiner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/CustomImageView.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/CustomImageView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/FlushedInputStream.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/FlushedInputStream.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/cache/BitmapFileCache.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/cache/BitmapFileCache.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/cache/BitmapMemoryPersistentCache.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/bitmap/cache/BitmapMemoryPersistentCache.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/commons/BuildConfig.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/commons/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/commons/R$anim.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/commons/R$anim.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/commons/R$attr.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/commons/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/commons/R$id.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/commons/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/commons/R$layout.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/commons/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/commons/R$string.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/commons/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/commons/R.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/commons/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/conversions/MetricConversions.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/conversions/MetricConversions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/device/DeviceUtils.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/device/DeviceUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/dialog/CommonDialogs$1.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/dialog/CommonDialogs$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/dialog/CommonDialogs$2.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/dialog/CommonDialogs$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/dialog/CommonDialogs$3.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/dialog/CommonDialogs$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/dialog/CommonDialogs.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/dialog/CommonDialogs.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/fonts/FontUtils$FontType.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/fonts/FontUtils$FontType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/fonts/FontUtils.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/fonts/FontUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/fragment/FragmentUtils.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/fragment/FragmentUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/fx/fireworks/model/Explosion.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/fx/fireworks/model/Explosion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/fx/fireworks/model/Particle.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/fx/fireworks/model/Particle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/fx/fireworks/view/FireworksSurfaceView.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/fx/fireworks/view/FireworksSurfaceView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/fx/fireworks/view/MainThread.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/fx/fireworks/view/MainThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/gallery/ExternalImage.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/gallery/ExternalImage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/gallery/ExternalImageListHelper$1.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/gallery/ExternalImageListHelper$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/gallery/ExternalImageListHelper$ExternalImageListContentHandler.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/gallery/ExternalImageListHelper$ExternalImageListContentHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/gallery/ExternalImageListHelper.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/gallery/ExternalImageListHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/graphic/Pixel.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/graphic/Pixel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/http/RequestTask.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/http/RequestTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/keyboard/KeyboardUtils.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/keyboard/KeyboardUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/location/CustomLocationListener.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/location/CustomLocationListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/location/LocationData.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/location/LocationData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/location/LocationUtils.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/location/LocationUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/location/OnLocationChangeListener.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/location/OnLocationChangeListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/location/geocode/GeocodeAddress.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/location/geocode/GeocodeAddress.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/location/geocode/GeocodeHelper.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/location/geocode/GeocodeHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/location/geocode/GeocodeJsonParser.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/location/geocode/GeocodeJsonParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/location/geocode/GeocodeResult.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/location/geocode/GeocodeResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/maps/GoogleMapsAPIProjection.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/maps/GoogleMapsAPIProjection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/maps/MapUtils.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/maps/MapUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/maps/Marker.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/maps/Marker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/menu/CustomMenuHelper$1.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/menu/CustomMenuHelper$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/menu/CustomMenuHelper$CustomMenuSelectListener.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/menu/CustomMenuHelper$CustomMenuSelectListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/menu/CustomMenuHelper.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/menu/CustomMenuHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/menu/CustomMenuItem.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/menu/CustomMenuItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/menu/CustomMenuItemAdapter.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/menu/CustomMenuItemAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/menu/CustomMenuParser.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/menu/CustomMenuParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/network/CheckServices.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/network/CheckServices.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/phone/PhoneUtils.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/phone/PhoneUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/rest/RestClient$1.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/rest/RestClient$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/rest/RestClient$RequestMethod.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/rest/RestClient$RequestMethod.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/rest/RestClient.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/rest/RestClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/rss/RSSHandler.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/rss/RSSHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/rss/RssFeed.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/rss/RssFeed.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/rss/RssPost.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/rss/RssPost.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/rss/RssReader.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/rss/RssReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/security/CustomCrypt.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/security/CustomCrypt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/security/SecurityUtils.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/security/SecurityUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/serialization/SerializationUtils.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/serialization/SerializationUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/splashscreen/SplashScreenActivity$1.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/splashscreen/SplashScreenActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/splashscreen/SplashScreenActivity.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/splashscreen/SplashScreenActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/string/StringUtils.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/string/StringUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/time/DateUtils.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/time/DateUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/ui/event/swipe/ListSwipeGestureListener$ListSwipeGestureListenerCallback.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/ui/event/swipe/ListSwipeGestureListener$ListSwipeGestureListenerCallback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/ui/event/swipe/ListSwipeGestureListener.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/ui/event/swipe/ListSwipeGestureListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/ui/slidingmenu/SlidingMenuLayout$CloseListener.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/ui/slidingmenu/SlidingMenuLayout$CloseListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/ui/slidingmenu/SlidingMenuLayout$OpenListener.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/ui/slidingmenu/SlidingMenuLayout$OpenListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/ui/slidingmenu/SlidingMenuLayout$SlidingMenuLayoutListener.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/ui/slidingmenu/SlidingMenuLayout$SlidingMenuLayoutListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/ui/slidingmenu/SlidingMenuLayout.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/ui/slidingmenu/SlidingMenuLayout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/validator/EmailValidator.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/validator/EmailValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/validator/IpValidator.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/validator/IpValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/AnimatedButton$1.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/AnimatedButton$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/AnimatedButton$AnimatedButtonListenerCallback.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/AnimatedButton$AnimatedButtonListenerCallback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/AnimatedButton.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/AnimatedButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/BottomSheetLayout$1.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/BottomSheetLayout$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/BottomSheetLayout.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/BottomSheetLayout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/CustomAnimator$1.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/CustomAnimator$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/CustomAnimator$CustomAnimatorCallback.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/CustomAnimator$CustomAnimatorCallback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/CustomAnimator.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/CustomAnimator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/LetterImageView.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/LetterImageView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/OdometerTextView$1.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/OdometerTextView$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/OdometerTextView$2.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/OdometerTextView$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/OdometerTextView$OdometerTextViewCallback.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/OdometerTextView$OdometerTextViewCallback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/OdometerTextView.class" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/classes/debug/com/whp/android/widget/OdometerTextView.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/outputs/aar/AndroidCommons-debug.aar" afterPath="$PROJECT_DIR$/AndroidCommons/build/outputs/aar/AndroidCommons-debug.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons.iml" afterPath="$PROJECT_DIR$/AndroidCommons.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/AndroidCommons-AndroidCommons.iml" afterPath="$PROJECT_DIR$/AndroidCommons/AndroidCommons-AndroidCommons.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/AndroidCommons.iml" afterPath="$PROJECT_DIR$/AndroidCommons/AndroidCommons.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build.gradle" afterPath="$PROJECT_DIR$/AndroidCommons/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/blame/res/androidTest/debug/single/anim.json" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/blame/res/androidTest/debug/single/anim.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapUtils.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/AndroidCommons/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapManager.java" afterPath="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapManager.java" />
     </list>
     <ignored path="AndroidCommons.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,17 +179,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="36" column="100" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="100" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/ImageManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="e#0#2390#0" expanded="false" />
+                <element signature="e#2359#2360#0" expanded="false" />
+                <element signature="e#2386#2387#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,8 +192,24 @@
         <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="82" column="65" selection-start-line="82" selection-start-column="61" selection-end-line="82" selection-end-column="65" />
-              <folding />
+              <caret line="127" column="32" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#3787#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <marker date="1472843818000" expanded="true" signature="2875:3087" placeholder="/**...*/" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BitmapLoaderTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapLoaderTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#1469#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,7 +218,29 @@
         <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapLoader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#2924#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.2222223">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidCommons/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -100,7 +251,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="174" column="33" selection-start-line="174" selection-start-column="33" selection-end-line="174" selection-end-column="33" />
-              <folding />
+              <folding>
+                <element signature="e#0#5542#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1718#1719#0" expanded="false" />
+                <element signature="e#1742#1743#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,28 +264,8 @@
       <file leaf-file-name="BitmapUtils.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59532374">
-              <caret line="428" column="53" selection-start-line="428" selection-start-column="53" selection-end-line="428" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnimatedButton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/widget/AnimatedButton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="221" column="5" selection-start-line="219" selection-start-column="4" selection-end-line="221" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BottomSheetLayout.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/widget/BottomSheetLayout.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            <state vertical-scroll-proportion="-0.2679856">
+              <caret line="407" column="126" selection-start-line="407" selection-start-column="99" selection-end-line="407" selection-end-column="126" />
               <folding />
             </state>
           </provider>
@@ -140,7 +276,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="e#0#3976#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3767#3768#0" expanded="false" />
+                <element signature="e#3791#3792#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -450,6 +591,16 @@
                 <option name="name" value="deviceCheck" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Extracts Android annotations for the debug variant into the archive file" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractDebugAnnotations" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Extracts Android annotations for the release variant into the archive file" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractReleaseAnnotations" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateDebugAndroidTestAssets" />
               </ExternalTaskPojo>
@@ -555,6 +706,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="mergeDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeReleaseAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -564,6 +719,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeReleaseProguardFiles" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="mergeReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
@@ -617,6 +776,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="preReleaseUnitTestBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:23.1.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportV42311Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -997,6 +1161,16 @@
                 <option name="name" value="deviceCheck" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Extracts Android annotations for the debug variant into the archive file" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/AndroidCommons" />
+                <option name="name" value="extractDebugAnnotations" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Extracts Android annotations for the release variant into the archive file" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/AndroidCommons" />
+                <option name="name" value="extractReleaseAnnotations" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/AndroidCommons" />
                 <option name="name" value="generateDebugAndroidTestAssets" />
               </ExternalTaskPojo>
@@ -1107,6 +1281,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/AndroidCommons" />
+                <option name="name" value="mergeDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/AndroidCommons" />
                 <option name="name" value="mergeReleaseAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1116,6 +1294,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/AndroidCommons" />
                 <option name="name" value="mergeReleaseProguardFiles" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/AndroidCommons" />
+                <option name="name" value="mergeReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
@@ -1174,6 +1356,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/AndroidCommons" />
                 <option name="name" value="preReleaseUnitTestBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:23.1.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/AndroidCommons" />
+                <option name="name" value="prepareComAndroidSupportSupportV42311Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/AndroidCommons" />
@@ -1352,7 +1539,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4367688259000" />
+        <entry key="$PROJECT_DIR$" value="4385919833000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1580,7 +1767,8 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar" />
-                            <option value="$PROJECT_DIR$/../../android-sdk-macosx-opt/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar" />
+                            <option value="$PROJECT_DIR$/../../android-sdk-macosx-opt/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1.aar" />
+                            <option value="$PROJECT_DIR$/../../android-sdk-macosx-opt/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/AndroidCommons" />
@@ -1674,13 +1862,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/AndroidCommons/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/AndroidCommons/build.gradle" />
         <option value="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/widget/OdometerTextView.java" />
         <option value="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/device/DeviceUtils.java" />
         <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/widget/CustomAnimator.java" />
         <option value="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapUtils.java" />
+        <option value="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapManager.java" />
+        <option value="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapLoaderTask.java" />
+        <option value="$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapLoader.java" />
+        <option value="$PROJECT_DIR$/AndroidCommons/build.gradle" />
       </list>
     </option>
   </component>
@@ -1722,8 +1913,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1782,36 +1973,14 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="widget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidCommons" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidCommons-AndroidCommons" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="bitmap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2081,7 +2250,7 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.4843126" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2092,7 +2261,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295063" sideWeight="0.5156874" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24928693" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979387" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2127,13 +2296,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/phone/PhoneUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/device/DeviceUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2145,7 +2307,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2194,7 +2355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2243,7 +2403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2292,7 +2451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2341,7 +2499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2365,7 +2522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2396,7 +2552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2432,22 +2587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCommons/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/widget/OdometerTextView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2456,51 +2595,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/widget/CustomAnimator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="100" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/ImageManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="65" selection-start-line="82" selection-start-column="61" selection-end-line="82" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapLazyLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="174" column="33" selection-start-line="174" selection-start-column="33" selection-end-line="174" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/widget/AnimatedButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="221" column="5" selection-start-line="219" selection-start-column="4" selection-end-line="221" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#0#4684#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4141#4142#0" expanded="false" />
+            <element signature="e#4161#4162#0" expanded="false" />
+            <element signature="e#4652#4653#0" expanded="false" />
+            <element signature="e#4679#4680#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2508,7 +2614,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#0#5064#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2516,7 +2625,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#0#3976#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3767#3768#0" expanded="false" />
+            <element signature="e#3791#3792#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2528,10 +2642,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapLazyLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="174" column="33" selection-start-line="174" selection-start-column="33" selection-end-line="174" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#5542#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1718#1719#0" expanded="false" />
+            <element signature="e#1742#1743#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/ImageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26978418">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/widget/CustomAnimator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="100" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="100" />
+          <folding>
+            <element signature="e#0#2390#0" expanded="false" />
+            <element signature="e#2359#2360#0" expanded="false" />
+            <element signature="e#2386#2387#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="127" column="32" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#3787#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <marker date="1472843818000" expanded="true" signature="2875:3087" placeholder="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapLoaderTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1469#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#2924#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2222223">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidCommons/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidCommons/src/main/java/com/whp/android/bitmap/BitmapUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59532374">
-          <caret line="428" column="53" selection-start-line="428" selection-start-column="53" selection-end-line="428" selection-end-column="53" />
+        <state vertical-scroll-proportion="-0.2679856">
+          <caret line="407" column="126" selection-start-line="407" selection-start-column="99" selection-end-line="407" selection-end-column="126" />
           <folding />
         </state>
       </provider>

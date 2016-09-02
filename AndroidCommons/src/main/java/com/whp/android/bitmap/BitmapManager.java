@@ -15,13 +15,13 @@
  */
 package com.whp.android.bitmap;
 
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
-
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.widget.ImageView;
+
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 
 /**
  * @author Walter Hugo Palladino
@@ -70,7 +70,8 @@ public class BitmapManager {
 			BitmapManager.loadBitmap( url, imageView, width, height, crop);
 		}
 	}
-	
+
+
 	/**
 	 * loadBitmap
 	 * @param url
@@ -102,4 +103,44 @@ public class BitmapManager {
 		imageView.setImageBitmap(Bitmap.createScaledBitmap(mIcon1, width, height, false));
 		 
 	}
+
+	/**
+	 * loadBitmap
+	 *
+	 * This version adds a border around the image
+	 *
+	 * @param url
+	 * @param imageView
+	 * @param width
+	 * @param height
+	 * @param crop
+	 * @param borderWidth
+	 * @param borderColor
+	 */
+	public static void loadBitmap (final String url, final ImageView imageView,
+								   final int width, final int height, final boolean crop,
+								   final int borderWidth, final int borderColor) {
+
+		URL url2 = null;
+		try {
+			url2 = new URL((url));
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+			imageView.setImageBitmap(null);
+			return ;
+		}
+
+		Bitmap mIcon1 = null;
+		try {
+			mIcon1 = BitmapFactory.decodeStream(url2.openConnection().getInputStream());
+		} catch (Exception e) {
+			e.printStackTrace();
+			//imageView.setImageBitmap(null);
+			return ;
+		}
+
+		imageView.setImageBitmap(BitmapUtils.getRoundedShape(mIcon1, width, height, borderWidth, borderColor));
+
+	}
+
 }

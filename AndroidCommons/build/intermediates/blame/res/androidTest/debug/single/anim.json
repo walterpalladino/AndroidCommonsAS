@@ -8,12 +8,12 @@
         "source": "/Users/walterpalladino/Documents/prg/as-ws/AndroidCommons/AndroidCommons/build/intermediates/bundles/debug/res/anim/left_to_right_in.xml"
     },
     {
-        "merged": "/Users/walterpalladino/Documents/prg/as-ws/AndroidCommons/AndroidCommons/build/intermediates/res/merged/androidTest/debug/anim/left_to_right_out.xml",
-        "source": "/Users/walterpalladino/Documents/prg/as-ws/AndroidCommons/AndroidCommons/build/intermediates/bundles/debug/res/anim/left_to_right_out.xml"
-    },
-    {
         "merged": "/Users/walterpalladino/Documents/prg/as-ws/AndroidCommons/AndroidCommons/build/intermediates/res/merged/androidTest/debug/anim/pop_exit.xml",
         "source": "/Users/walterpalladino/Documents/prg/as-ws/AndroidCommons/AndroidCommons/build/intermediates/bundles/debug/res/anim/pop_exit.xml"
+    },
+    {
+        "merged": "/Users/walterpalladino/Documents/prg/as-ws/AndroidCommons/AndroidCommons/build/intermediates/res/merged/androidTest/debug/anim/left_to_right_out.xml",
+        "source": "/Users/walterpalladino/Documents/prg/as-ws/AndroidCommons/AndroidCommons/build/intermediates/bundles/debug/res/anim/left_to_right_out.xml"
     },
     {
         "merged": "/Users/walterpalladino/Documents/prg/as-ws/AndroidCommons/AndroidCommons/build/intermediates/res/merged/androidTest/debug/anim/pop_enter.xml",
