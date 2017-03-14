@@ -18,15 +18,13 @@
 package com.whp.android.bitmap;
 
 import android.content.Context;
-import android.os.AsyncTask;
 import android.widget.ImageView;
 
 /**
- * Task to be executed to load an image in background
- *
- * Created by walterpalladino on 9/2/16.
+ * Created by walterpalladino on 10/12/16.
  */
-public class BitmapLoaderTask extends AsyncTask<Void, Void, Void> {
+
+public class ImageLoaderRunnable implements Runnable {
 
 	private Context context;
 	private ImageView imageView;
@@ -35,17 +33,7 @@ public class BitmapLoaderTask extends AsyncTask<Void, Void, Void> {
 	private int borderSize;
 	private int borderColor;
 
-	/**
-	 * Constructor
-	 *
-	 * @param context
-	 * @param imageView
-	 * @param url
-	 * @param size
-	 * @param borderSize
-	 * @param borderColor
-	 */
-	public BitmapLoaderTask (Context context, ImageView imageView, String url, int size, int borderSize, int borderColor) {
+	public ImageLoaderRunnable (Context context, ImageView imageView, String url, int size, int borderSize, int borderColor) {
 		this.context = context;
 		this.imageView = imageView;
 		this.url = url;
@@ -54,10 +42,7 @@ public class BitmapLoaderTask extends AsyncTask<Void, Void, Void> {
 		this.borderColor = borderColor;
 	}
 
-
-	@Override
-	protected Void doInBackground (Void... params) {
-
+	public void run() {
 		try {
 			BitmapManager.loadBitmap (url, imageView,
 					size, size, true,
@@ -65,6 +50,5 @@ public class BitmapLoaderTask extends AsyncTask<Void, Void, Void> {
 		} catch (Exception e) {
 			e.printStackTrace ();
 		}
-		return null;
 	}
 }

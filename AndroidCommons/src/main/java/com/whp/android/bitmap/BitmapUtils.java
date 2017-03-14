@@ -17,6 +17,7 @@ package com.whp.android.bitmap;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.BitmapShader;
 import android.graphics.BlurMaskFilter;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -24,10 +25,14 @@ import android.graphics.Matrix;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Rect;
+import android.graphics.RectF;
+import android.graphics.Shader;
 import android.util.Base64;
 import android.view.View;
 
 import java.io.ByteArrayOutputStream;
+
+
 
 /**
  * @author Walter Hugo Palladino
@@ -371,6 +376,45 @@ public class BitmapUtils {
 	}
 
 	/**
+	 * getResizedCroppedBitmap
+	 *
+	 * @param bm
+	 * @param newWidth
+	 * @param newHeight
+	 * @return
+	 */
+	public static Bitmap getResizedClippedBitmap (Bitmap bm, int newWidth, int newHeight) {
+
+		Bitmap targetBitmap = Bitmap.createBitmap(newWidth, newHeight, Bitmap.Config.ARGB_8888);
+
+		Canvas canvas = new Canvas(targetBitmap);
+
+		float originalWidth = bm.getWidth();
+		float originalHeight = bm.getHeight();
+
+		float scale, xTranslation = 0.0f, yTranslation = 0.0f;
+		if (originalWidth > originalHeight) {
+			scale = newHeight/originalHeight;
+			xTranslation = (newWidth - originalWidth * scale)/2.0f;
+		}
+		else {
+			scale = newWidth / originalWidth;
+			yTranslation = (newHeight - originalHeight * scale)/2.0f;
+		}
+
+		Matrix transformation = new Matrix();
+		transformation.postTranslate(xTranslation, yTranslation);
+		transformation.preScale(scale, scale);
+
+		Paint paint = new Paint();
+		paint.setFilterBitmap(true);
+		canvas.drawBitmap(bm, transformation, paint);
+
+		return targetBitmap;
+	}
+
+
+	/**
 	 * getResizedBitmapToHalf
 	 * 
 	 * @param bm
@@ -436,6 +480,69 @@ public class BitmapUtils {
 
 		return targetBitmap;
 	}
+
+	public static Bitmap getSquareRoundedShape (Bitmap scaleBitmapImage, int targetWidth, int targetHeight, int radius, int borderWith, int color) {
+
+		//	First we create a rounded bitmap included on the original one
+		Bitmap targetBitmap = Bitmap.createBitmap (targetWidth, targetHeight, Bitmap.Config.ARGB_8888);
+/*
+		Canvas canvas = new Canvas (targetBitmap);
+		Path path = new Path ();
+		path.addCircle (((float) targetWidth - 1) / 2, ((float) targetHeight - 1) / 2,
+				(Math.min (((float) targetWidth), ((float) targetHeight)) / 2), Path.Direction.CCW);
+
+		canvas.clipPath (path);
+
+
+		Bitmap sourceBitmap = scaleBitmapImage;
+
+		canvas.drawBitmap (sourceBitmap, new Rect (0, 0, sourceBitmap.getWidth (), sourceBitmap.getHeight ()),
+				new Rect (0, 0, targetWidth, targetHeight), null);
+
+		// Initializing a new Paint instance to draw circular border
+		if (borderWith > 0) {
+			Paint borderPaint = new Paint();
+			borderPaint.setStyle(Paint.Style.STROKE);
+			borderPaint.setStrokeWidth(borderWith);
+			borderPaint.setColor(color);
+			borderPaint.setAntiAlias (true);
+
+			canvas.drawCircle(canvas.getWidth()/2, canvas.getWidth()/2, canvas.getWidth() / 2 - borderWith / 2, borderPaint);
+		}
+*/
+
+		Bitmap sourceBitmap = BitmapUtils.getResizedClippedBitmap (scaleBitmapImage, targetWidth, targetHeight );
+
+		Canvas canvas = new Canvas (targetBitmap);
+
+		BitmapShader shader;
+		shader = new BitmapShader(sourceBitmap, Shader.TileMode.CLAMP, Shader.TileMode.CLAMP);
+
+		Paint paint = new Paint();
+		paint.setAntiAlias(true);
+		paint.setColor(color);
+		paint.setShader(shader);
+
+		RectF rect = new RectF(0.0f, 0.0f, targetWidth, targetHeight);
+
+		// rect contains the bounds of the shape
+		// radius is the radius in pixels of the rounded corners
+		// paint contains the shader that will texture the shape
+		canvas.drawRoundRect(rect, radius, radius, paint);
+
+		if (borderWith > 0) {
+			Paint borderPaint = new Paint();
+			borderPaint.setStyle(Paint.Style.STROKE);
+			borderPaint.setStrokeWidth(borderWith);
+			borderPaint.setColor(color);
+			borderPaint.setAntiAlias (true);
+
+			canvas.drawRoundRect(rect, radius, radius, borderPaint);
+		}
+
+		return targetBitmap;
+	}
+
 
 	/**
 	 * toBase64

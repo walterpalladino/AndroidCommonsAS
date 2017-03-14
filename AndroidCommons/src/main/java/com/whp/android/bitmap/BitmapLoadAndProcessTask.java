@@ -17,36 +17,40 @@
 
 package com.whp.android.bitmap;
 
-import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.widget.ImageView;
+
+import java.net.MalformedURLException;
+import java.net.URL;
 
 /**
  * Task to be executed to load an image in background
  *
- * Created by walterpalladino on 9/2/16.
+ * Created by walterpalladino on 10/12/16.
  */
-public class BitmapLoaderTask extends AsyncTask<Void, Void, Void> {
+public class BitmapLoadAndProcessTask extends AsyncTask<Void, Void, Void> {
 
-	private Context context;
 	private ImageView imageView;
 	private String url;
 	private int size;
 	private int borderSize;
 	private int borderColor;
+	private Bitmap bitmap=null;
 
 	/**
 	 * Constructor
 	 *
-	 * @param context
+	 * @param mListener
 	 * @param imageView
 	 * @param url
 	 * @param size
 	 * @param borderSize
 	 * @param borderColor
 	 */
-	public BitmapLoaderTask (Context context, ImageView imageView, String url, int size, int borderSize, int borderColor) {
-		this.context = context;
+	public BitmapLoadAndProcessTask (BitmapLoadAndProcessTaskCallback mListener, ImageView imageView, String url, int size, int borderSize, int borderColor) {
+		this.mListener = mListener;
 		this.imageView = imageView;
 		this.url = url;
 		this.size = size;
@@ -58,13 +62,34 @@ public class BitmapLoaderTask extends AsyncTask<Void, Void, Void> {
 	@Override
 	protected Void doInBackground (Void... params) {
 
+		URL url2 = null;
 		try {
-			BitmapManager.loadBitmap (url, imageView,
-					size, size, true,
-					borderSize, borderColor);
-		} catch (Exception e) {
-			e.printStackTrace ();
+			url2 = new URL((url));
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+			return null;
 		}
+
+		try {
+			bitmap = BitmapFactory.decodeStream(url2.openConnection().getInputStream());
+		} catch (Exception e) {
+			e.printStackTrace();
+			return null;
+		}
+
 		return null;
 	}
+
+	@Override
+	public void onPostExecute (Void v) {
+		mListener.onBitmapLoadAndProcessCompleted (bitmap, imageView, size, borderSize, borderColor);
+	}
+
+	public interface BitmapLoadAndProcessTaskCallback {
+		public void onBitmapLoadAndProcessCompleted(Bitmap bitmap, ImageView imageView, int size, int borderSize, int borderColor);
+	}
+
+	// Use this instance of the interface to deliver action events
+	BitmapLoadAndProcessTaskCallback mListener = null;
+
 }

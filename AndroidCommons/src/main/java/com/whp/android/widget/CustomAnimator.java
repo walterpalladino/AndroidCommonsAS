@@ -33,11 +33,13 @@ public class CustomAnimator {
 	private int showQuizIds[] =  null;
 	private boolean animatingFrames = false;
 	private int delayBetweenFrame = 1;
+	private ImageView.ScaleType scaleType = ImageView.ScaleType.CENTER;
 
-	public CustomAnimator (ImageView imgViewFrameAnimation, int showQuizIds[], int delayBetweenFrame) {
+	public CustomAnimator (ImageView imgViewFrameAnimation, int showQuizIds[], int delayBetweenFrame, ImageView.ScaleType scaleType) {
 		this.imgViewFrameAnimation = imgViewFrameAnimation;
 		this.showQuizIds = showQuizIds;
 		this.delayBetweenFrame = delayBetweenFrame;
+		this.scaleType	= scaleType;
 	}
 
 	/**
@@ -72,6 +74,7 @@ public class CustomAnimator {
 				}
 				else {
 					imgViewFrameAnimation.setImageResource(showQuizIds[frameNo]);
+					imgViewFrameAnimation.setScaleType (scaleType);
 					playFrame(frameNo + 1);
 				}
 			}
